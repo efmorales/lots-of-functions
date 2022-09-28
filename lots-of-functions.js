@@ -80,7 +80,6 @@ fiveMore (array2)
 console.log(`\n`)
 fiveMore (array3)
 
-console.log(typeof array1[0])
 console.log(`\n`)
 // #### `arraySummer`
 
@@ -91,7 +90,9 @@ console.log (`#5 arraySummer problem: \n`)
 array4 = [10,20,30,40,50,60]
 
 function arraySummer(arraySum){
+    
     let sum = 0
+
 for (let i = 0; arraySum.length > i; i++){
 
     if (typeof arraySum[i] === "number"){
@@ -138,10 +139,3 @@ function everyDivisible(n){
 }
 
 everyDivisible(number4)
-
-//     if (n > 10){
-//         for (i=0; 100 <= i; i++){
-            
-//         }
-//     }
-// }
